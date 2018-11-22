@@ -1,0 +1,4 @@
+#Thu Nov 22 14:43:45 IST 2018
+base.0=/Users/myinnos/Downloads/tensorflow-for-poets-2-master/android/tfmobile/gradleBuild/intermediates/transforms/dexMerger/debug/1
+renamed.0=classes.dex
+file.0=/Users/myinnos/Downloads/tensorflow-for-poets-2-master/android/tfmobile/gradleBuild/intermediates/transforms/dexMerger/debug/1/classes.dex

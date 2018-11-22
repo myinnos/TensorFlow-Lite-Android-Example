@@ -1,0 +1,4 @@
+#Thu Nov 22 21:59:07 IST 2018
+base.0=/Users/myinnos/AndroidStudioProjects/TensorFlow-Lite-Android-Example/android/tflite/app/build/intermediates/transforms/dexMerger/debug/3
+path.0=classes.dex
+renamed.0=classes.dex

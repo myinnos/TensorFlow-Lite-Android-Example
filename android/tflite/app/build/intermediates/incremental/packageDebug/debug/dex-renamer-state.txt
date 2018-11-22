@@ -1,0 +1,19 @@
+#Thu Nov 22 21:37:55 IST 2018
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.5=/Users/myinnos/Downloads/tensorflow-for-poets-2-master/android/tflite/app/build/intermediates/transforms/dexMerger/debug/13
+base.4=/Users/myinnos/Downloads/tensorflow-for-poets-2-master/android/tflite/app/build/intermediates/transforms/dexMerger/debug/14
+base.3=/Users/myinnos/Downloads/tensorflow-for-poets-2-master/android/tflite/app/build/intermediates/transforms/dexMerger/debug/16
+base.2=/Users/myinnos/Downloads/tensorflow-for-poets-2-master/android/tflite/app/build/intermediates/transforms/dexMerger/debug/15
+base.1=/Users/myinnos/Downloads/tensorflow-for-poets-2-master/android/tflite/app/build/intermediates/transforms/dexMerger/debug/12
+base.0=/Users/myinnos/Downloads/tensorflow-for-poets-2-master/android/tflite/app/build/intermediates/transforms/dexMerger/debug/17
+file.5=/Users/myinnos/Downloads/tensorflow-for-poets-2-master/android/tflite/app/build/intermediates/transforms/dexMerger/debug/13/classes.dex
+file.4=/Users/myinnos/Downloads/tensorflow-for-poets-2-master/android/tflite/app/build/intermediates/transforms/dexMerger/debug/14/classes.dex
+file.3=/Users/myinnos/Downloads/tensorflow-for-poets-2-master/android/tflite/app/build/intermediates/transforms/dexMerger/debug/16/classes.dex
+file.2=/Users/myinnos/Downloads/tensorflow-for-poets-2-master/android/tflite/app/build/intermediates/transforms/dexMerger/debug/15/classes.dex
+file.1=/Users/myinnos/Downloads/tensorflow-for-poets-2-master/android/tflite/app/build/intermediates/transforms/dexMerger/debug/12/classes.dex
+file.0=/Users/myinnos/Downloads/tensorflow-for-poets-2-master/android/tflite/app/build/intermediates/transforms/dexMerger/debug/17/classes.dex

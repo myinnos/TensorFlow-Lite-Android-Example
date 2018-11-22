@@ -1,0 +1,27 @@
+IMAGE_SIZE=224
+ARCHITECTURE="mobilenet_0.50_${IMAGE_SIZE}"
+python -m scripts.retrain \
+  --bottleneck_dir=tf_files/bottlenecks \
+  --model_dir=tf_files/models/"${ARCHITECTURE}" \
+  --summaries_dir=tf_files/training_summaries/"${ARCHITECTURE}" \
+  --output_graph=tf_files/retrained_graph.pb \
+  --output_labels=tf_files/retrained_labels.txt \
+  --architecture="${ARCHITECTURE}" \
+  --image_dir=tf_files/photos
+
+========================================================================================================
+
+  toco \
+  --input_format=TENSORFLOW_GRAPHDEF \
+  --graph_def_file=tf_files/retrained_graph.pb \
+  --output_format=TFLITE \
+  --output_file=tf_files/optimized_graph.lite \
+  --inference_type=FLOAT \
+  --inference_input_type=FLOAT \
+  --input_arrays=input \
+  --output_arrays=final_result \
+  --input_shapes=1,224,224,3\
+  --mean_values=128 \
+  --std_dev_values=128 \
+  --default_ranges_min=0 \
+  --default_ranges_max=6
